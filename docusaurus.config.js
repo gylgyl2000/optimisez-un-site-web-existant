@@ -4,15 +4,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Optimisez un site web existant',
+  tagline: 'Développeur web - Projet 4',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/river-otter.ico',
+  organizationName: 'https://github.com/gylgyl2000', // Usually your GitHub org/user name.
+  projectName: 'optimisez-un-site-web-existant', // Usually your repo name.
 
   presets: [
     [
@@ -41,29 +41,29 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'La Loutre - Gilles Chassignet',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/river-otter.svg',
         },
         items: [
-          {
+/*           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'}, */
           {
             href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            className:'github',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
+        /* links: [
           {
             title: 'Docs',
             items: [
@@ -103,8 +103,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        ], */
+        copyright: `Copyright © ${new Date().getFullYear()} La Loutre - Construit avec Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
