@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Optimisez un site web existant',
   tagline: 'Développeur web - Projet 4',
-  url: 'https://gylgyl2000.github.io/',
-  baseUrl: '/optimisez-un-site-web-existant/build/',
+  url: 'https://gylgyl2000.github.io',
+  baseUrl: '/optimisez-un-site-web-existant/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/river-otter.ico',
-  organizationName: 'https://github.com/gylgyl2000', // Usually your GitHub org/user name.
+  organizationName: 'gylgyl2000', // Usually your GitHub org/user name.
   projectName: 'optimisez-un-site-web-existant', // Usually your repo name.
 
   presets: [
