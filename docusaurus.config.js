@@ -10,7 +10,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   baseUrl: '/optimisez-un-site-web-existant/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/river-otter.ico',
+  favicon: './img/river-otter.ico',
   organizationName: 'gylgyl2000', // Usually your GitHub org/user name.
   projectName: 'optimisez-un-site-web-existant', // Usually your repo name.
 
@@ -44,7 +44,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'La Loutre - Gilles Chassignet',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/river-otter.svg',
+          src: './img/river-otter.svg',
         },
         items: [
 /*           {
@@ -55,7 +55,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'}, */
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/gylgyl2000',
             className:'github',
             position: 'right',
           },
