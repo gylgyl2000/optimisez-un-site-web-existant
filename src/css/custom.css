@@ -131,3 +131,7 @@ header img {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+.theme-doc-footer.docusaurus-mt-lg {
+  display: none;
+}
